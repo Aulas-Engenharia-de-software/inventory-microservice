@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: inventory
+  cloud:
+    aws:
+      region:
+        static: us-east-1
+      credentials:
+        use-default-aws-credentials-chain: true
+
+sqs:
+  queue:
+    inventory: ${SQS_ORDER_QUEUE_NAME}
