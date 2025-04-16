@@ -9,9 +9,9 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.github.awsservices</groupId>
-    <artifactId>inventory</artifactId>
+    <artifactId>inventory-microservice</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>inventory</name>
+    <name>inventory-microservice</name>
     <description>Inventory Service</description>
     <properties>
         <java.version>21</java.version>
